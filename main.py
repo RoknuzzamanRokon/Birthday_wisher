@@ -12,3 +12,5 @@ with smtplib.SMTP("smtp.mail.yahoo.com") as connection:
         to_addrs="rokon.raz@gmail.com",
         msg="Subject:Hello\n\nThis is the body of the mail"
     )
+
+
